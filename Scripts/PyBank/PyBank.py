@@ -1,16 +1,21 @@
+#importing dependencies
 import pandas as pd
 
+#defining variables for paths
 wr = open('/Users/enriquevazquez/Desktop/Financial Analisis/Results.txt', 'w' )
 csv_path = '/Users/enriquevazquez/Desktop/budget_data.csv'
 
+#read data into a dataframe
 data = pd.read_csv(csv_path)
 data_df = pd.DataFrame(data)
 
 data_df_temp = data_df['Date']
 data_df_temp = data_df_temp.str.split(pat = "-", expand=True)
 
+#write document
 wr.write('Financial Analysis\n-------------------------')
 
+#making calculations and print results
 print(f'Total months : {data_df_temp[0].count()}')
 wr.write('\nTotal months : ' + str(data_df_temp[0].count()))
 print(f'Total : $ {data_df["Profit/Losses"].sum()}')
