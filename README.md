@@ -1,6 +1,6 @@
 # python-challenge
 
-[![](Resources/img/python.jpg)]()   
+[![](img/python.jpg)]()   
 
 ## Introduction
 
