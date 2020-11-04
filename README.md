@@ -17,7 +17,7 @@ These will be explained in more detail below.
 
 [![](img/bank.png)]()  
 
-In this proyect we  developed a Python script that analyze the financial records of a company. The goal of this script are make some calculation which are the following:
+In this proyect we  developed a Python script that analyze the financial records of a company. The goal of this script is to make some calculations which are the following:
 
 - The total number of months included in the dataset
 - The net total amount of "Profit/Losses" over the entire period
@@ -39,7 +39,7 @@ For this project the information used is in the resources folder 'budget_data.cs
 
 #### Tools
 
-The following tools were used to developed the program with the analysis
+The following tools were used to developed the program with the analysis:
 
 - Python 3
 - Pandas
@@ -57,5 +57,52 @@ Greatest Decrease in Profits: Sep-2013 ($-2196167)
 
 ```
 
+## PyPoll
+
+[![](img/vote.jpg)]()  
+
+In this proyect we  developed a Python script that can helps a small rural town to modernize the vote counting process.
+The goal of this script is to make some calculation which are the following:
+
+- The total number of votes cast
+- A complete list of candidates who received votes
+- The percentage of votes each candidate won
+- The total number of votes each candidate won
+- The winner of the election based on popular vote.
+
+#### Data
+
+For this project the information used is in the resources folder 'election_data.csv'. The dataset is composed of two columns: Voter ID, County and Candidate.
+
+##### Schema
+
+|      Column    | Data Type |
+| -------------- |---------- |
+|   Voter ID     |   `int`   |
+|   Country      |   `str`   |
+|  Candidate     |   `str`   |
+
+#### Tools
+
+The following tools were used to developed the program with the analysis:
+
+- Python 3
+- Pandas
+
+#### Output
+
+```
+Election Results
+-------------------------
+Total Votes: 3521001
+-------------------------
+Khan: 63.000% (2218231)
+Correy: 20.000% (704200)
+Li: 14.000% (492940)
+O'Tooley: 3.000% (105630)
+-------------------------
+Winner: Khan
+-------------------------
 
 
+```
