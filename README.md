@@ -15,7 +15,7 @@ These will be explained in more detail below.
 
 ## PyBank
 
-[![](img/bank.jpg)]()  
+[![](img/bank.png)]()  
 
 In this proyect we  developed a Python script that analyze the financial records of a company. The goal of this script are make some calculation which are the following:
 
