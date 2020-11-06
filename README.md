@@ -61,7 +61,7 @@ Greatest Decrease in Profits: Sep-2013 ($-2196167)
 
 [![](img/Vote.jpg)]()  
 
-In this proyect we  developed a Python script that can helps a small rural town to modernize the vote counting process.
+In this project we  developed a Python script that can helps a small rural town to modernize the vote counting process.
 The goal of this script is to make some calculation which are the following:
 
 - The total number of votes cast
