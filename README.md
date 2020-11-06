@@ -64,10 +64,10 @@ Greatest Decrease in Profits: Sep-2013 ($-2196167)
 In this project we  developed a Python script that can helps a small rural town to modernize the vote counting process.
 The goal of this script is to make some calculation which are the following:
 
-- The total number of votes cast
-- A complete list of candidates who received votes
-- The percentage of votes each candidate won
-- The total number of votes each candidate won
+- The total number of votes cast.
+- A complete list of candidates who received votes.
+- The percentage of votes each candidate won.
+- The total number of votes each candidate won.
 - The winner of the election based on popular vote.
 
 #### Data
